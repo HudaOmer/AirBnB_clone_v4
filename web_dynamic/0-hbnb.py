@@ -40,7 +40,7 @@ def hbnb():
 
     return render_template('0-hbnb.html',
                            states=st_ct,
-                           amenities=amenities,
+                           amens=amenities,
                            places=places,
                            users=users,
                            cache_id=cache_id)
